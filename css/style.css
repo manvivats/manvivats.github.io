@@ -1,0 +1,44 @@
+body {
+  background: white;
+  color: black;
+  padding: 1%;
+  font-size: 14px;
+  font-family: Avenir, verdana, sans-serif;
+}
+
+.sidebar {
+  width: 23%;
+  display: inline-block;
+  margin-left: 20%;
+  background: blue;
+  color: black;
+}
+
+img { 
+ width: 100%;
+}
+
+.profile-info {
+  padding: 20px 10px;
+  border-bottom: 1px solid #4783c2;
+}
+
+.profile-info p {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile-info .key {
+  font-weight: bold;
+}
+
+.sidebar-top {
+  position: relative;
+}
+
+.profile-basic {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
